@@ -24,7 +24,7 @@ The AWS project only has a single stack (`prod`).
 
 This is for resources that might be shared between services within a single environment, for example a VPC.
 
-### Services (e.g. API)
+### Services (e.g. API)
 
 Each service is defined in its own project and provisions all the infrastructure it needs to run.
 
