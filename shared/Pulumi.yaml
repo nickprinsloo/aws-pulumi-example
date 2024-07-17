@@ -1,0 +1,5 @@
+name: shared
+runtime: nodejs
+description: Shared resources to be created for each environment
+config:
+  aws:region: eu-west-2

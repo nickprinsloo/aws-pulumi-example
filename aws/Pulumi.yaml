@@ -1,0 +1,5 @@
+name: aws
+runtime: nodejs
+description: AWS accounts to be used in projects
+config:
+  aws:region: eu-west-2
