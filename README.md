@@ -14,7 +14,7 @@ The repo is split into:
 
 Each of the sub-directories is a Pulumi Project.
 
-### AWS
+### AWS
 
 AWS is for high level AWS account configuration. It assumes that you have a manually created root AWS account, which we use to provision sub-accounts for each environment. This pulumi module exports an accounts map that can be used to assume the account role to provision resources in that account. The key for the map is the short name of the environment (e.g. `dev` or `staging`.
 
